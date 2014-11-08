@@ -17,3 +17,6 @@
 
 # Ignore capistrano temporal files
 .cap_tasks~
+
+# Ignore .env file used by dotenv to manage env variables
+.env
