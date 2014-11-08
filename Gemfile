@@ -6,6 +6,8 @@ gem 'rails', '4.1.6'
 
 gem 'unicorn'
 
+gem 'therubyracer', :platforms => :ruby
+
 
 group :production do
   gem 'pg'
