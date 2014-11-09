@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: white;
+    color: #000000;
 }
 
 h1,
@@ -56,20 +56,20 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #2C3E50;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #F75353;
+    color: #2C3E50;
+    background-color: #FFFFFF;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #2C3E50;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #2C3E50;
     background-color: #fff;
 }
 
@@ -79,8 +79,8 @@ hr.star-primary:after {
 
 section {
     text-align: center;
-    color: #fff;
-    background: #F75353;
+    color: #000000;
+    background: #FFFFFF;
 }
 
 section .container {
@@ -95,9 +95,10 @@ section img {
 
 section a {
   text-decoration: underline;
-  color: white;
+  color: #000000;
 }
 section .intro-text .name {
+    color: #2C3E50;
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
