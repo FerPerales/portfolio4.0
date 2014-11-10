@@ -19,7 +19,6 @@ group :development do
   gem 'spring'
 end
 
-gem 'font-awesome-rails'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'high_voltage'
 gem 'jbuilder', '~> 2.0'

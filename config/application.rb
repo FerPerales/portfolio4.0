@@ -11,5 +11,7 @@ module Portfolio40
 
     config.middleware.use Rack::Deflater
 
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
   end
 end
