@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{:charset => "UTF-8"}/
+    %title Fer Perales
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    = stylesheet_link_tag    'application', media: 'all'
+    = csrf_meta_tags
+  %body
+    = render partial: 'pages/navigation'
+    = yield
+    = render partial: 'pages/footer'
+  = javascript_include_tag 'application'

@@ -1,0 +1,179 @@
+%section
+  .container
+    .row
+      .col-lg-12
+        .intro-text
+          %span.name Resume
+          %hr.star-light/
+          .row
+            .col-lg-4.pull-left.section-left
+              %h2
+                %i.fa.fa-user
+                Personal information
+              %p
+                %i.fa.fa-calendar
+                October 17th, 1989
+              %p
+                %i.fa.fa-map-marker
+                Colima, Colima, Mexico
+              %p
+                %i.fa.fa-envelope-o
+                %a{:href => "mailto:me@ferperales.net"} me@ferperales.net
+              %p
+                %i.fa.fa-mobile-phone
+                33 1088 5718
+              %p
+                %i.fa.fa-skype
+                %a{:href => "skype:ferperalesm?chat"} FerPeralesM
+            .col-lg-4.pull-right.section-right
+              %h2
+                Social
+                %i.fa.fa-comments-o
+              %p
+                %a{:href => "http://ferperales.net"} ferperales.net
+                %i.fa.fa-home
+              %p
+                %a{:href => "http://blog.ferperales.net", :target => "_blank"} blog.ferperales.net
+                %i.fa.fa-rss
+              %p
+                %a{:href => "http://linkedin.com/in/FerPerales", :target => "_blank"} linkedin.com/in/FerPerales
+                %i.fa.fa-linkedin
+              %p
+                %a{:href => "http://github.com/FerPerales", :target => "_blank"} github.com/FerPerales
+                %i.fa.fa-github-alt
+              %p
+                %a{:href => "http://twitter.com/FerPeralesM", :target => "_blank"} @FerPeralesM
+                %i.fa.fa-twitter
+        #accordion.panel-group{"aria-multiselectable" => "true", :role => "tablist"}
+          .panel.panel-default
+            #headingOne.panel-heading{:role => "tab"}
+              %h4.panel-title
+                %a{"aria-controls" => "collapseOne", "aria-expanded" => "true", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseOne"}
+                  %span.fa.fa-book
+                  Academic formation
+                  %span.fa.fa-book
+            #collapseOne.panel-collapse.collapse.in{"aria-labelledby" => "headingOne", :role => "tabpanel"}
+              .panel-body
+                #collapseOne.accordion-body.collapse.in
+                  .accordion-inner
+                    %h4.centered-text University of Guadalajara – University Center of Exact Sciences and Engineering (CUCEI)
+                    %p
+                      B. Cs. Computer Engineering
+                    %p
+                      2008 - 2012
+                    %h4.centered-text Instituto Cultural Mexicano-Norteamericano de Jalisco
+                    %p
+                      Basic program of English for Adults (1 year)
+                    %p
+                      Proficiency program of English for Adults (1 year)
+                    %p
+                      Teacher Training Program (1 year)
+          .panel.panel-default
+            #headingTwo.panel-heading{:role => "tab"}
+              %h4.panel-title
+                %a.collapsed{"aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseTwo"}
+                  %span.fa.fa-cog
+                  Technical Experience
+                  %span.fa.fa-cog
+            #collapseTwo.panel-collapse.collapse{"aria-labelledby" => "headingTwo", :role => "tabpanel"}
+              .panel-body
+                #collapseOne.accordion-body.collapse.in
+                  .accordion-inner
+                    .row
+                      .col-lg-5.pull-left.section-left
+                        %h4 Programming languages
+                        %ul
+                          %li
+                            Java
+                          %li
+                            C
+                          %li
+                            C#
+                          %li
+                            Python
+                          %li
+                            Ruby
+                        %h4 Web development
+                        %ul
+                          %li
+                            HTML5
+                          %li
+                            CSS3
+                          %li
+                            JavaScript
+                          %li
+                            PHP
+                          %li
+                            Ajax
+                      .col-lg-5.pull-right.section-right
+                        %h4 Mobile development
+                        %ul.right-bullet{:dir => "rtl"}
+                          %li
+                            Android
+                        %h4 Frameworks, APIs and other tools
+                        %ul.right-bullet{:dir => "rtl"}
+                          %li
+                            JDBC/ODBC
+                          %li
+                            Foundation and Bootstrap
+                          %li
+                            jQuery
+                          %li
+                            jasperReports
+                          %li
+                            Drupal/Wordpress
+                          %li
+                            backbone.js, knockout.js and sammy.js
+                          %li
+                            node.js
+                          %li
+                            Twitter API PHP
+                      .row
+                        .col-lg-12
+                          %h4 Extras
+                          %ul
+                            %li
+                              Databases (mySQL, postgreSQL and BD2)
+                            %li
+                              CASE tools (DIA, mySQL Workbench)
+                            %li
+                              Mockup tools (Pencil, Balsamiq mockups)
+                            %li
+                              IDEs/text editors (Eclipse, AptanaStudio, SharpDevelop, Codeblock, SublimeText, vim)
+                            %li
+                              Scripting (basic knowledge of CMD and BASH)
+                            %li
+                              CVS (git)
+                            %li
+                              Deployment (Heroku, FTP)
+          .panel.panel-default
+            #headingThree.panel-heading{:role => "tab"}
+              %h4.panel-title
+                %a.collapsed{"aria-controls" => "collapseThree", "aria-expanded" => "false", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseThree"}
+                  %span.fa.fa-trophy
+                  Certifications and Diplomas
+                  %span.fa.fa-trophy
+            #collapseThree.panel-collapse.collapse{"aria-labelledby" => "headingThree", :role => "tabpanel"}
+              .panel-body
+                #collapseOne.accordion-body.collapse.in
+                  .accordion-inner
+                    %p IBM BD2 Certified Academic Associate
+                    %p ICMNJ Certified Teacher Training Program
+                    %p Microsoft HTML5 &amp; Internet Explorer 9 Developer Fundamentals
+                    %p Oracle Certified Java Programmer
+          .panel.panel-default
+            #headingFour.panel-heading{:role => "tab"}
+              %h4.panel-title
+                %a.collapsed{"aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseFour"}
+                  %span.fa.fa-briefcase
+                  Professional Experience
+                  %span.fa.fa-briefcase
+            #collapseFour.panel-collapse.collapse{"aria-labelledby" => "headingTwo", :role => "tabpanel"}
+              .panel-body
+                #collapseOne.accordion-body.collapse.in
+                  .accordion-inner
+                    %h4.centered-text Crowd Interactive
+                    %p
+                      Software Engineer
+                    %p
+                      Feb 2012 - current
